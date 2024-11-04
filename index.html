@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Shadow The Hedgehog Website</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu" class="container__rotulo">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Conheça Shadow</li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">História</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Primeira Aparição</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Sonic X Shadow Generations</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Team Dark</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Amigos de Shadow</a>
+        </li>
+      </ul>
+      <img src="img/Logo Shadow.svg" alt="Logo do Shadow" class="container__imagem">
+      <h1 class="container__titulo"><b class="container__titulo--negrito">Shadow</b>TheWebsite</h1>
+    </div>
+
+    <ul class="opções">
+      <input type="checkbox" id="opções-menu" class="opções__botão">
+      <label for="opções-menu" class="opções__rotulo">
+      <li class="opções__item">Categorias</li>
+
+    </label>
+    <ul class="lista-menu">
+      <li class="lista-menu__titulo">Conheça Shadow</li>
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">História</a>
+      </li>
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Primeira Aparição</a>
+      </li>
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Sonic X Shadow Generations</a>
+      </li>
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Team Dark</a>
+      </li>
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Amigos de Shadow</a>
+      </li>
+    </ul>
+    
+
+  </ul>
+      <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+      <li class="opções__item"><a href="#" class="opções__link">Meu catálogo</a></li>
+    </ul>
+
+    <div class="container">
+      <a href="#"><img src="img/Forces-Estrela.svg" alt="Meus favoritos" 
+        class="container__imagem container__imagem-transparente"></a>
+      <a href="#" class="container__link">
+        <img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem">
+        <p class="container__texto">Meu catálogo</p>
+      </a>
+      <a href="#" class="container__link">
+        <img src="img/Shadow-Icon.svg" alt="Meu perfil" class="container__imagem">
+        <p class="container__texto">Meu perfil</p>
+      </a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__titulo">Sobre o Rival de Sonic</h2>
+    <p class="banner__texto">Saiba tudo sobre Shadow The Hedgehog neste site!</p>
+    <input type="search" class="banner__pesquisa" placeholder="Pesquise Aqui:">
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Jogos do Shadow</h2>
+    <!-- Slider main container -->
+    <div class="carrossel__container">
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/SonicXShadowGenerations.svg"
+            alt="Jogo mais recente do Shadow"></div>
+        <div class="swiper-slide"><img src="img/ShadowGame.svg"
+            alt="Jogo solo do Shadow"></div>
+        <div class="swiper-slide"><img src="img/SonicAdventure2.svg" alt="Jogo de estreia do Shadow">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/Sonic06.svg" alt="Pior jogo do Sonic com o Shadow" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/Sonic_Heroes.svg" alt="Shadow participa do Dark Team em Sonic Heroes" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/Sonic-Forces.svg" alt="Jogo com o episódio próprio do Shadow" />
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+      <div class="card">
+        <!-- 1º Linha -->
+          <div class="card__descrição">
+            <!-- 1ª coluna -->
+            <div class="descrição">
+              <h3 class="descrição__título">Shadow The Hedgehog In Sonic 1</h3>
+              <h2 class="descrição__título-livro">Por AsuharaMoon</h2>
+              <p class="descrição__texto">Jogue com Shadow no primeiro jogo da franquia de seu mais famoso rival, Sonic The Hedgehog 1.</p>
+            </div>
+            <!-- 2º coluna -->
+            <img src="img/SHATHs1.svg" class="descrição__imagem">
+          </div>
+
+          <!-- 2º linha -->
+          <div class="card__botões">
+            <!-- 1º coluna -->
+            <ul class="botões">
+              <li class="botões__item"><img src="img/Forces-Estrela.svg" alt="Favoritar Jogo"></li>
+              <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar ao carrinho de compras"></li>
+            </ul>
+            <!-- 2º coluna -->
+            <a href="#" class="botões__ancora">Saiba mais</a>
+          </div>
+      </div>
+  </div>
+</div>
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Jogos mais vendidos</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/SonicXShadowGenerations.svg"
+            alt="Jogo mais recente do Shadow"></div>
+        <div class="swiper-slide"><img src="img/ShadowGame.svg"
+            alt="Jogo solo do Shadow"></div>
+        <div class="swiper-slide"><img src="img/SonicAdventure2.svg" alt="Jogo de estreia do Shadow">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/Sonic06.svg" alt="Pior jogo do Sonic com o Shadow" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/Sonic_Heroes.svg" alt="Shadow participa do Dark Team em Sonic Heroes" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/Sonic-Forces.svg" alt="Jogo com o episódio próprio do Shadow" />
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+    <ul class="tópicos__lista">
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Plataforma</a>
+      </li> 
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Quadrinhos</a>
+      </li> 
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Mídia Digital</a>
+      </li> 
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Sonic 3: O Filme</a>
+      </li> 
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Geralt Robotnik</a>
+      </li> 
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Maria Robotnik</a>
+      </li> 
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Rouge The Bat</a>
+      </li> 
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">E-123 Ômega</a>
+      </li> 
+    </ul>
+  </section>
+
+  <section class="contato">
+    <div class="contato__descrição"> 
+    <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+    <p class="contato__texto">Atualizações sobre os jogos mais recentes do Shadow.</p>
+  </div>
+    <input type="email" placeholder="Cadastre-se no site via e-mail" class="contato__email">
+  </section>
+
+  <hr/>
+
+  <footer class="rodapé">
+    <h2 class="rodapé__titulo">Eric Julian</h2>
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo">Personagens Principais</li>
+      <li class="lista-rodapé__item">
+        <img src="img/SonicIcon.svg" alt="Sonic Logo">
+        <a href="#" class="lista-rodapé__link">Sonic</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/TailsIcon.svg" alt="Tails Logo">
+        <a href="#" class="lista-rodapé__link">Tails</a>
+      </li>
+    </ul>
+
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo">Personagens Secundários</li>
+      <li class="lista-rodapé__item">
+        <img src="img/KnucklesIcon.svg" alt="Knuckles Logo">
+        <a href="#" class="lista-rodapé__link">Knuckles</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/AmyIcon.svg" alt="Amy Logo">
+        <a href="#" class="lista-rodapé__link">Amy Rose</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/RougeIcon.svg" alt="Rouge Logo">
+        <a href="#" class="lista-rodapé__link">Rouge</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/BlazeIcon.svg" alt="Blaze Logo">
+        <a href="#" class="lista-rodapé__link">Blaze</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/SilverIcon.svg" alt="Silver Logo">
+        <a href="#" class="lista-rodapé__link">Silver</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/MetalSonicIcon.svg" alt="Metal Sonic Logo">
+        <a href="#" class="lista-rodapé__link">Metal Sonic</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/EggmanIcon.svg" alt="Eggman Logo">
+        <a href="#" class="lista-rodapé__link">Dr.Eggman</a>
+      </li>
+    </ul>
+
+<ul class="lista-rodapé">
+  <li class="lista-rodapé__titulo">Personagens Figurantes</li>
+  <li class="lista-rodapé__item">
+    <img src="img/Big Icon.svg" alt="Big Logo">
+    <a href="#" class="lista-rodapé__link">Big</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/FangIcon.svg" alt="Fang Logo">
+    <a href="#" class="lista-rodapé__link">Fang</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/InfiniteIcon.svg" alt="Infinite Logo">
+    <a href="#" class="lista-rodapé__link">Infinite</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/Metal Shadow.svg" alt="Metal Shadow Logo">
+    <a href="#" class="lista-rodapé__link">Metal Shadow</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/VectorIcon.svg" alt="Vector Logo">
+    <a href="#" class="lista-rodapé__link">Vector</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/TeriosIcon.svg" alt="Terios Logo">
+    <a href="#" class="lista-rodapé__link">Terios</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/GammaIcon.svg" alt="Gamma Logo">
+    <a href="#" class="lista-rodapé__link">E-102 Gamma</a>
+  </li>
+</ul>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
+</body>
+
+</html>
